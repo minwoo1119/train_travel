@@ -1,5 +1,6 @@
 import RegionInfo from '../components/regioninfo/RegionInfo';
 import styles from './mainpage.module.css';
+import regionData from '../db/regionInfo.json';
 import { Link } from 'react-router-dom';
 
 const MainPage = () => {
@@ -10,26 +11,14 @@ const MainPage = () => {
 				<div className={styles.searchBtn}>찾는 지역이 있으신가요 ?</div>
 			</Link>
 			<div className={styles.regionCard}>
-				<RegionInfo
-					regionName="서울특별시"
-					regionEngName="Seoul"
-					regionImg=""
-				/>
-				<RegionInfo
-					regionName="서울특별시"
-					regionEngName="Seoul"
-					regionImg=""
-				/>
-				<RegionInfo
-					regionName="서울특별시"
-					regionEngName="Seoul"
-					regionImg=""
-				/>
-				<RegionInfo
-					regionName="서울특별시"
-					regionEngName="Seoul"
-					regionImg=""
-				/>
+				{regionData.map((data, index) => (
+					<RegionInfo
+						regionName={data.region}
+						regionEngName={data.regionEngName}
+						regionImg={data.photoUrl}
+						key={index}
+					/>
+				))}
 			</div>
 		</div>
 	);
