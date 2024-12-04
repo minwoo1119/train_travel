@@ -12,10 +12,31 @@
 	font-weight: 700;
 }
 
-.inputbox {
-	margin: 0.6em;
-	width: 12em;
-	height: 4em;
-	border: 3px solid black;
-	border-radius: 12px;
+select {
+	width: 100%;
+	margin: 1em;
+	padding: 1.2em 2em;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	color: #333;
+	outline: none;
+	cursor: pointer;
+	transition: border-color 0.3s ease;
+}
+
+select:hover {
+	border-color: #007bff;
+}
+
+select:focus {
+	border-color: #007bff;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+option {
+	background-color: #fff;
+	color: #333;
+	padding: 10px;
 }
