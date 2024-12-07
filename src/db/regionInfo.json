@@ -5,7 +5,12 @@
 		"descript": "대한민국의 수도이자 교통 중심지.",
 		"stationName": "서울역",
 		"trainLine": ["경부선", "호남선", "중앙선", "전라선"],
-		"connectedRegions": ["대전", "광주", "원주", "전주"],
+		"connectedRegions": [
+			{ "region": "대전", "travelTime": 50 },
+			{ "region": "광주", "travelTime": 120 },
+			{ "region": "원주", "travelTime": 40 },
+			{ "region": "전주", "travelTime": 90 }
+		],
 		"photoUrl": "src/assets/images/seoul.jpeg"
 	},
 	{
@@ -14,7 +19,12 @@
 		"descript": "다양한 해양 관광과 글로벌 쇼핑을 즐길 수 있는 도시.",
 		"stationName": "부산역",
 		"trainLine": ["경부선", "동해선"],
-		"connectedRegions": ["대구", "구미", "울산", "포항"],
+		"connectedRegions": [
+			{ "region": "대구", "travelTime": 50 },
+			{ "region": "구미", "travelTime": 80 },
+			{ "region": "울산", "travelTime": 30 },
+			{ "region": "포항", "travelTime": 70 }
+		],
 		"photoUrl": "src/assets/images/busan.jpg"
 	},
 	{
@@ -23,7 +33,12 @@
 		"descript": "과학 도시로서 첨단 연구와 교통 중심지 역할을 하는 지역.",
 		"stationName": "대전역",
 		"trainLine": ["경부선", "호남선"],
-		"connectedRegions": ["서울", "대구", "광주", "구미"],
+		"connectedRegions": [
+			{ "region": "서울", "travelTime": 50 },
+			{ "region": "대구", "travelTime": 70 },
+			{ "region": "광주", "travelTime": 100 },
+			{ "region": "구미", "travelTime": 60 }
+		],
 		"photoUrl": "src/assets/images/dajeon.jpeg"
 	},
 	{
@@ -32,7 +47,11 @@
 		"descript": "전통과 현대가 조화를 이루며 경상도의 중심 역할을 하는 도시.",
 		"stationName": "동대구역",
 		"trainLine": ["경부선"],
-		"connectedRegions": ["대전", "구미", "부산"],
+		"connectedRegions": [
+			{ "region": "대전", "travelTime": 70 },
+			{ "region": "구미", "travelTime": 30 },
+			{ "region": "부산", "travelTime": 50 }
+		],
 		"photoUrl": "src/assets/images/daegu.jpeg"
 	},
 	{
@@ -41,7 +60,10 @@
 		"descript": "첨단 산업과 자연이 조화를 이룬 경북의 대표적인 산업 도시.",
 		"stationName": "구미역",
 		"trainLine": ["경부선"],
-		"connectedRegions": ["대구", "대전"],
+		"connectedRegions": [
+			{ "region": "대구", "travelTime": 30 },
+			{ "region": "대전", "travelTime": 60 }
+		],
 		"photoUrl": "src/assets/images/gumi.jpg"
 	},
 	{
@@ -50,7 +72,11 @@
 		"descript": "예술과 문화, 그리고 맛의 도시로 알려진 남도의 중심지.",
 		"stationName": "광주송정역",
 		"trainLine": ["호남선"],
-		"connectedRegions": ["서울", "목포", "대전"],
+		"connectedRegions": [
+			{ "region": "서울", "travelTime": 120 },
+			{ "region": "목포", "travelTime": 50 },
+			{ "region": "대전", "travelTime": 100 }
+		],
 		"photoUrl": "src/assets/images/gwangju.jpeg"
 	},
 	{
@@ -59,7 +85,7 @@
 		"descript": "다도해와 섬 여행의 시작점이자 해양 역사의 중심.",
 		"stationName": "목포역",
 		"trainLine": ["호남선"],
-		"connectedRegions": ["광주"],
+		"connectedRegions": [{ "region": "광주", "travelTime": 50 }],
 		"photoUrl": "src/assets/images/mokpo.jpg"
 	},
 	{
@@ -68,7 +94,10 @@
 		"descript": "산과 강이 어우러진 자연의 도시로, 레저와 문화가 풍부한 지역.",
 		"stationName": "원주역",
 		"trainLine": ["중앙선"],
-		"connectedRegions": ["서울", "강릉"],
+		"connectedRegions": [
+			{ "region": "서울", "travelTime": 40 },
+			{ "region": "강릉", "travelTime": 60 }
+		],
 		"photoUrl": "src/assets/images/wonju.jpg"
 	},
 	{
@@ -77,7 +106,7 @@
 		"descript": "맑은 동해와 산, 그리고 커피와 전통이 공존하는 동해안의 중심 도시.",
 		"stationName": "강릉역",
 		"trainLine": ["중앙선"],
-		"connectedRegions": ["원주"],
+		"connectedRegions": [{ "region": "원주", "travelTime": 60 }],
 		"photoUrl": "src/assets/images/gangneug.png"
 	},
 	{
@@ -86,7 +115,10 @@
 		"descript": "한옥마을과 전통 음식, 그리고 역사적 문화 유산이 가득한 도시.",
 		"stationName": "전주역",
 		"trainLine": ["전라선"],
-		"connectedRegions": ["서울", "여수"],
+		"connectedRegions": [
+			{ "region": "서울", "travelTime": 90 },
+			{ "region": "여수", "travelTime": 80 }
+		],
 		"photoUrl": "src/assets/images/jeonju.jpg"
 	},
 	{
@@ -95,7 +127,7 @@
 		"descript": "아름다운 바다와 해양 관광, 엑스포의 도시로 알려진 남해안의 중심.",
 		"stationName": "여수EXPO역",
 		"trainLine": ["전라선"],
-		"connectedRegions": ["전주"],
+		"connectedRegions": [{ "region": "전주", "travelTime": 80 }],
 		"photoUrl": "src/assets/images/yeosu.jpg"
 	},
 	{
@@ -104,7 +136,7 @@
 		"descript": "자동차와 조선 산업의 중심지이자 태화강이 흐르는 자연 도시.",
 		"stationName": "울산역",
 		"trainLine": ["경부선"],
-		"connectedRegions": ["부산"],
+		"connectedRegions": [{ "region": "부산", "travelTime": 30 }],
 		"photoUrl": "src/assets/images/ulsan.jpg"
 	},
 	{
@@ -113,7 +145,7 @@
 		"descript": "호미곶과 영일만 해변이 있는 철강 산업과 바다가 어우러진 도시.",
 		"stationName": "포항역",
 		"trainLine": ["동해선"],
-		"connectedRegions": ["부산"],
+		"connectedRegions": [{ "region": "부산", "travelTime": 70 }],
 		"photoUrl": "src/assets/images/pohang.jpg"
 	}
 ]

@@ -1,0 +1,40 @@
+.container {
+	margin: 1em;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: whitesmoke;
+	border-radius: 15px;
+}
+
+.label {
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.route {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.station {
+	margin: 1em;
+	padding: 1em 1.6em;
+	background-color: silver;
+	border-radius: 12px;
+}
+
+.cost {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cost {
+	font-weight: 800;
+}
