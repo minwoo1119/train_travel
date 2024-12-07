@@ -2,7 +2,7 @@
 	{
 		"region": "서울",
 		"regionEngName": "Seoul",
-		"descript": "대한민국의 수도이자 교통 중심지.",
+		"descript": "대한민국의 수도이자 교통 중심지로, 역사와 현대가 공존하는 도시. 경복궁, 남산타워, 홍대 거리와 같은 랜드마크가 있으며 쇼핑과 먹거리가 풍부합니다. 한강변 산책과 한옥마을 방문은 놓칠 수 없는 경험입니다.",
 		"stationName": "서울역",
 		"trainLine": ["경부선", "호남선", "중앙선", "전라선"],
 		"connectedRegions": [
@@ -16,7 +16,7 @@
 	{
 		"region": "부산",
 		"regionEngName": "Busan",
-		"descript": "다양한 해양 관광과 글로벌 쇼핑을 즐길 수 있는 도시.",
+		"descript": "대한민국 제2의 도시로 아름다운 해안과 활기찬 항구도시의 매력을 느낄 수 있습니다. 해운대, 광안리, 자갈치 시장, 감천문화마을 등 다양한 관광 명소와 함께 신선한 해산물 요리를 즐길 수 있습니다.",
 		"stationName": "부산역",
 		"trainLine": ["경부선", "동해선"],
 		"connectedRegions": [
@@ -30,7 +30,7 @@
 	{
 		"region": "대전",
 		"regionEngName": "Daejeon",
-		"descript": "과학 도시로서 첨단 연구와 교통 중심지 역할을 하는 지역.",
+		"descript": "과학과 연구의 중심 도시로, 대전 엑스포와 국립중앙과학관 같은 과학 테마 관광지가 있습니다. 유성 온천과 계족산 황톳길은 자연과 힐링을 즐길 수 있는 인기 명소입니다.",
 		"stationName": "대전역",
 		"trainLine": ["경부선", "호남선"],
 		"connectedRegions": [
@@ -44,7 +44,7 @@
 	{
 		"region": "대구",
 		"regionEngName": "Daegu",
-		"descript": "전통과 현대가 조화를 이루며 경상도의 중심 역할을 하는 도시.",
+		"descript": "전통과 현대가 조화를 이룬 도시로, 근대 골목 투어와 팔공산 등산이 유명합니다. 서문시장에서 맛볼 수 있는 대구의 야시장 음식도 필수 코스입니다.",
 		"stationName": "동대구역",
 		"trainLine": ["경부선"],
 		"connectedRegions": [
@@ -57,7 +57,7 @@
 	{
 		"region": "구미",
 		"regionEngName": "Gumi",
-		"descript": "첨단 산업과 자연이 조화를 이룬 경북의 대표적인 산업 도시.",
+		"descript": "첨단 산업단지로 유명하며, 금오산과 동락공원 같은 자연 명소가 있습니다. 조용하고 한적한 분위기 속에서 여유로운 산책과 피크닉을 즐길 수 있는 곳입니다.",
 		"stationName": "구미역",
 		"trainLine": ["경부선"],
 		"connectedRegions": [
@@ -69,7 +69,7 @@
 	{
 		"region": "광주",
 		"regionEngName": "Gwangju",
-		"descript": "예술과 문화, 그리고 맛의 도시로 알려진 남도의 중심지.",
+		"descript": "예술과 문화의 도시로, 국립아시아문화전당과 5·18 민주광장이 주요 명소입니다. 양림동 펭귄마을과 무등산 국립공원에서 문화와 자연을 동시에 즐길 수 있습니다.",
 		"stationName": "광주송정역",
 		"trainLine": ["호남선"],
 		"connectedRegions": [
@@ -82,7 +82,7 @@
 	{
 		"region": "목포",
 		"regionEngName": "Mokpo",
-		"descript": "다도해와 섬 여행의 시작점이자 해양 역사의 중심.",
+		"descript": "서해안과 다도해를 대표하는 도시로, 유달산과 근대역사관이 유명합니다. 항구 도시로서 신선한 해산물 요리를 즐길 수 있으며, 다도해 섬 여행의 출발점이기도 합니다.",
 		"stationName": "목포역",
 		"trainLine": ["호남선"],
 		"connectedRegions": [{ "region": "광주", "travelTime": 50 }],
@@ -91,7 +91,7 @@
 	{
 		"region": "원주",
 		"regionEngName": "Wonju",
-		"descript": "산과 강이 어우러진 자연의 도시로, 레저와 문화가 풍부한 지역.",
+		"descript": "강원도의 관문으로, 치악산과 뮤지엄 산이 주요 명소입니다. 아기자기한 카페와 예술 공간을 함께 즐길 수 있는 도시로, 자연과 문화를 동시에 경험할 수 있습니다.",
 		"stationName": "원주역",
 		"trainLine": ["중앙선"],
 		"connectedRegions": [
@@ -103,7 +103,7 @@
 	{
 		"region": "강릉",
 		"regionEngName": "Gangneung",
-		"descript": "맑은 동해와 산, 그리고 커피와 전통이 공존하는 동해안의 중심 도시.",
+		"descript": "맑은 동해와 아름다운 해안선이 있는 도시로, 안목 해변의 커피거리와 오죽헌, 경포대가 유명합니다. 자연과 전통이 어우러진 동해안의 대표 관광지입니다.",
 		"stationName": "강릉역",
 		"trainLine": ["중앙선"],
 		"connectedRegions": [{ "region": "원주", "travelTime": 60 }],
@@ -112,7 +112,7 @@
 	{
 		"region": "전주",
 		"regionEngName": "Jeonju",
-		"descript": "한옥마을과 전통 음식, 그리고 역사적 문화 유산이 가득한 도시.",
+		"descript": "한옥마을과 전통 음식의 고장으로, 전주비빔밥과 막걸리가 유명합니다. 전통 한옥 체험과 전주향교, 경기전 방문은 여행을 더욱 풍성하게 만듭니다.",
 		"stationName": "전주역",
 		"trainLine": ["전라선"],
 		"connectedRegions": [
@@ -124,7 +124,7 @@
 	{
 		"region": "여수",
 		"regionEngName": "Yeosu",
-		"descript": "아름다운 바다와 해양 관광, 엑스포의 도시로 알려진 남해안의 중심.",
+		"descript": "엑스포의 도시로, 오동도와 돌산대교, 여수밤바다로 유명합니다. 해양 레포츠와 신선한 해산물 요리를 함께 즐길 수 있는 도시입니다.",
 		"stationName": "여수EXPO역",
 		"trainLine": ["전라선"],
 		"connectedRegions": [{ "region": "전주", "travelTime": 80 }],
@@ -133,7 +133,7 @@
 	{
 		"region": "울산",
 		"regionEngName": "Ulsan",
-		"descript": "자동차와 조선 산업의 중심지이자 태화강이 흐르는 자연 도시.",
+		"descript": "산업 도시로 유명하지만 태화강 국가정원과 간절곶에서 자연의 아름다움을 느낄 수 있습니다. 조선소 투어와 대왕암공원 방문도 인기 있는 관광 코스입니다.",
 		"stationName": "울산역",
 		"trainLine": ["경부선"],
 		"connectedRegions": [{ "region": "부산", "travelTime": 30 }],
@@ -142,7 +142,7 @@
 	{
 		"region": "포항",
 		"regionEngName": "Pohang",
-		"descript": "호미곶과 영일만 해변이 있는 철강 산업과 바다가 어우러진 도시.",
+		"descript": "호미곶 해맞이 공원과 영일대 해변이 대표 관광지입니다. 철강 도시로서 산업 투어도 가능하며, 신선한 과메기를 맛볼 수 있는 곳입니다.",
 		"stationName": "포항역",
 		"trainLine": ["동해선"],
 		"connectedRegions": [{ "region": "부산", "travelTime": 70 }],
